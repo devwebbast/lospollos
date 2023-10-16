@@ -1,0 +1,161 @@
+$card-animation-duration: 0.5s;
+$animation-delay: 0.2s;
+
+.first-section {
+    text-align: center;
+    padding-bottom: 5%;
+    color: $white-color;
+}
+.effet-menu {
+  overflow: hidden;
+  color: $primary-color;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: .15em;
+  font-family: cursive;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+.color-title-menu {
+  color: $primary-color;
+  font-family: cursive;
+
+}
+.line-menu {
+  width: 150px;
+  border: 1px solid $primary-color;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+  
+.card-menu {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fade-in $card-animation-duration ease forwards;
+    
+      &:nth-child(1) {
+        animation-delay: $animation-delay * 1;
+      }
+      &:nth-child(2) {
+        animation-delay: $animation-delay * 2;
+      }
+      &:nth-child(3) {
+        animation-delay: $animation-delay * 3;
+      }
+      &:nth-child(4) {
+        animation-delay: $animation-delay * 4;
+      }    
+      &:nth-child(5) {
+        animation-delay: $animation-delay * 5;
+      } 
+      &:nth-child(6) {
+        animation-delay: $animation-delay * 6;
+      } 
+      &:nth-child(7) {
+        animation-delay: $animation-delay * 7;
+      }
+      &:nth-child(8) {
+        animation-delay: $animation-delay * 8;
+      }
+      &:nth-child(9) {
+        animation-delay: $animation-delay * 9;
+      }
+      &:nth-child(10) {
+        animation-delay: $animation-delay * 10;
+      }
+    }
+  
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+}
+
+.menu-top {
+  margin-top: 50px;
+}
+  
+  .title-menu {
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-left: auto;  
+      margin-right: auto;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      padding-top: 5%;
+      
+  }
+
+  .menu-display {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .card-menu {
+      align-items: center;
+      display: flex;
+      width: 90%;
+      height: 70px;
+      padding: 5px;
+      margin-top: 10px;
+      border-radius: 15px;
+      background-color: $primary-color;
+      color: $black-color;
+      overflow: hidden;
+      transition: padding-right 450ms ease-in-out;
+      &:hover {
+        padding-right: 20px;
+        cursor: pointer;
+      }
+      .body-menu {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          padding: 2px;
+          width: 100%;
+
+          h2 {
+            font-size: 17px;
+          }
+          h3 {
+            font-size: 11px;
+          }
+  
+      }
+      .column-box {
+        flex-direction: column;
+        align-items: start;
+      }
+  
+      .price-menu {
+          height: 100%;
+          width: 75px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: bold;        
+      }
+
+  }
+
+  .menu-poutine {
+    height: 10%;
+  }
+
+  .drink-txt{
+    margin-top: 20px;
+  }
+  

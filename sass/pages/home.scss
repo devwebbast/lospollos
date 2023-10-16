@@ -1,0 +1,105 @@
+// NAVBAR
+.navbar-home {
+    border-bottom: 1px solid #c5bdbd;
+    background-color: $white-color;
+}
+
+#offcanvasNavbar{
+    background-color: $primary-color;
+}
+
+.navbar-home .navbar-brand {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $black-color;   
+}
+
+.nav-item{
+    color: $black-color;
+}
+
+.location-title{
+    margin-top: 20px;
+    display: none;
+    color: $black-color;
+
+    i {
+        margin-right: 10px;
+    }
+}
+
+// HEADER SECTION
+.header-section {
+    margin-top: 20%;
+    p{
+        text-align: center;
+        padding-top: 10px;
+        color: $white-color;
+    }
+}
+
+.title-section {
+    text-align: center;
+    margin-top: 6%;
+    color: $white-color;
+}
+
+.flash-anim {
+    animation: flash 1.5s infinite;
+    color: $primary-color;
+  }
+  
+  @keyframes flash {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.dot {
+    color: $primary-color; 
+}
+
+// MAIN SECTION
+.card-style{
+    box-shadow: 4px -4px 0px 0px $primary-color; 
+
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.08);
+    }
+    img {
+        height: 57px;
+        width: 100%;
+    }
+    a {
+        text-decoration: none;
+        background-image: url("../img/bg-img.png");
+    }
+}
+
+.bg-title{
+    font-weight: bold;
+    height: 100px;
+    color: $primary-color;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+    h2{
+        font-size: 25px;
+    }
+}
+
+.location-snack h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+
+}
+

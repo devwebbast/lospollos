@@ -1,0 +1,63 @@
+.footer {
+    margin-top: 7%;
+    color: $black-color;
+    background-color: $white-color;
+    
+    .title-footer{
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .div-time-footer {
+        width: 100%;
+        margin: auto;
+    }
+    .hours-first, .hours-second{
+        font-weight: 500;
+    }
+    .table {
+        text-align: center;
+    }
+    .time-footer {
+        display: flex;
+        
+    }
+    .time-footer-day {
+        width: 20%;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+
+.location-snack {
+    color: $black-color;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    h1 {
+        padding: 10px;
+    }
+    p {
+        margin-top: 2%;
+        font-size: 1rem;
+    }
+}
+
+.network-footer {
+    text-align: center;
+    margin-top: 2%;
+    a{
+        color: $black-color;
+        font-size: 50px;
+        padding: 20px;
+    }
+}
+
+.copyright {
+    border-top: 1px solid $white-color;
+    background-color: $black-color;
+    color: $white-color;
+    text-align: center;
+    margin-top: 10px;
+}

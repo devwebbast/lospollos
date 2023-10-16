@@ -1,0 +1,22 @@
+//STYLE
+*{
+    margin: 0;
+    
+}
+
+.nav-item {
+    text-transform: uppercase;
+}
+
+body {
+    background-image: url("../img/bg-img.png");
+    background-size: cover;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// COLORS
+$primary-color: rgb(251, 207, 3);
+$white-color: white;
+$black-color : black;
