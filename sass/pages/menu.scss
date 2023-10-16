@@ -15,10 +15,7 @@ $animation-delay: 0.2s;
   font-family: cursive;
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
+
 .color-title-menu {
   color: $primary-color;
   font-family: cursive;
@@ -117,7 +114,6 @@ $animation-delay: 0.2s;
       overflow: hidden;
       transition: padding-right 450ms ease-in-out;
       &:hover {
-        padding-right: 20px;
         cursor: pointer;
       }
       .body-menu {
